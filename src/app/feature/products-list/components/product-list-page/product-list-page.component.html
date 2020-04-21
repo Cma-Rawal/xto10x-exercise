@@ -1,0 +1,6 @@
+<app-header [categories]="categories" (categoryChanged)="changeCategory($event)"></app-header>
+
+<div class="content" role="main">
+
+<app-card-container [category]="selectedCategory"></app-card-container>
+</div>
